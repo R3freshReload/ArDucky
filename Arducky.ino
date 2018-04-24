@@ -87,6 +87,19 @@ void ALT(byte key) {
   execKey(key, MOD_ALT_LEFT);
 }
 
+void SHIFT(byte key) {
+  execKey(key, MOD_CONTROL_LEFT);
+}
+
+void CTRL(byte key) {
+  execKey(key, MOD_SHIFT_LEFT);
+}
+
+void CONTROL(byte key) {
+  CTRL(key);
+}
+
+
 void menu() { // This does not work yet
   execKey(118);
 }
