@@ -87,12 +87,12 @@ void ALT(byte key) {
   execKey(key, MOD_ALT_LEFT);
 }
 
-void menu() { // This does not work yes
+void menu() { // This does not work yet
   execKey(118);
 }
 
 #define ENTER enter()
-#define MENU menu() // This does not work yes
+#define MENU menu() // This does not work yet
 
 /*!
  * End of easy to use functions
